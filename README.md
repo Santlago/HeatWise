@@ -2,11 +2,11 @@
 
 ## Descrição do Projeto
 
-O HeatWise é uma plataforma inovadora que utiliza o recurso de heat mapping para oferecer feedback de eficiência e medir o desempenho dos usuários dentro de um site ou software da empresa. Nosso objetivo é fornecer insights valiosos sobre áreas de alto interesse e interação, bem como identificar possíveis problemas de usabilidade que possam estar impactando a produtividade dos usuários.
+O HeatWise é uma plataforma inovadora que utiliza o recurso de heat mapping para oferecer feedback de eficiência e medir o desempenho dos usuários dentro de um site da empresa. Nosso objetivo é fornecer insights valiosos sobre áreas de alto interesse e interação, bem como identificar possíveis problemas de usabilidade que possam estar impactando a produtividade dos usuários.
 
 ## Funcionalidades Principais
 
-- **Heat Mapping**: Identificação das áreas mais relevantes do site/software com base nos cliques e tempo de tela dos usuários.
+- **Heat Mapping**: Identificação das áreas mais relevantes do site com base nos cliques e tempo de tela dos usuários.
 - **Feedback de Eficiência**: Análise do desempenho dos usuários, fornecendo insights sobre suas ações, dificuldades e intenções.
 - **Monitoramento Contínuo**: Acompanhamento em tempo real do comportamento dos usuários para detectar problemas e oportunidades de melhoria.
 - **Relatórios Detalhados**: Geração de relatórios completos com dados analíticos e sugestões de otimização.
@@ -14,17 +14,17 @@ O HeatWise é uma plataforma inovadora que utiliza o recurso de heat mapping par
 
 ## Como Funciona
 
-1. **Cadastro do Site/Software**: A empresa cliente cadastra seu site ou software em nossa plataforma, fornecendo todas as informações relevantes.
+1. **Cadastro do Site/Software**: A empresa cliente cadastra seu site e em nossa plataforma, fornecendo todas as informações relevantes.
 2. **Instalação do Script**: A empresa instala o script fornecido por nós em seu site/software, utilizando uma tag similar à utilizada no Google Analytics.
 3. **Monitoramento Iniciado**: O HeatWise começa a monitorar o comportamento dos usuários, coletando dados de interação.
 4. **Análise e Feedback**: Nossa plataforma analisa os dados coletados e fornece feedback valioso sobre áreas de interesse, problemas de usabilidade e sugestões de melhorias.
-5. **Otimização Contínua**: Com base nos insights fornecidos, a empresa pode implementar melhorias em seu site/software, aumentando assim a eficiência e a produtividade dos usuários.
+5. **Otimização Contínua**: Com base nos insights fornecidos, a empresa pode implementar melhorias em seu site=, aumentando assim a eficiência e a produtividade dos usuários.
 
 ## Benefícios
 
 - Identificação precisa de áreas de interesse e problemas de usabilidade.
 - Aumento da eficiência e produtividade dos usuários.
-- Otimização contínua do site/software para melhor experiência do usuário.
+- Otimização contínua do site para melhor experiência do usuário.
 - Tomada de decisões embasada em dados concretos.
 - Melhoria da satisfação do usuário e fidelização dos clientes.
 
