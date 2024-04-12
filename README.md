@@ -1,8 +1,8 @@
-![logo](image.png)
+![logo](imagens/image.png)
 
 ## Descrição do Projeto
 
-O HeatWise é uma plataforma inovadora que utiliza o recurso de heat mapping para oferecer feedback de eficiência e medir o desempenho dos usuários dentro de um site da empresa. Nosso objetivo é fornecer insights valiosos sobre áreas de alto interesse e interação, bem como identificar possíveis problemas de usabilidade que possam estar impactando a produtividade dos usuários.
+O HeatWise é uma plataforma inovadora que utiliza o recurso de heat mapping para oferecer feedback de eficiência e medir o desempenho dos usuários dentro do site de uma empresa. Nosso objetivo é fornecer insights valiosos sobre áreas de alto interesse e interação, bem como identificar possíveis problemas de usabilidade que possam estar impactando a produtividade dos usuários.
 
 ## Funcionalidades Principais
 
@@ -36,10 +36,11 @@ O HeatWise é uma plataforma inovadora que utiliza o recurso de heat mapping par
 
 ## Equipe
 
-- [Nome do Membro da Equipe 1] - Desenvolvedor Front-end
-- [Nome do Membro da Equipe 2] - Desenvolvedor Back-end
-- [Nome do Membro da Equipe 3] - Analista de Dados
-- [Nome do Membro da Equipe 4] - Designer UX/UI
+- [Breno Lems Santaigo] - RM: 552270
+- [Felipe Guedes Gonçalves] - RM: 550906
+- [Luiz Fellipe Soares de Sousa Lucena] - RM: 551365
+- [Nina Rebello Francisco] - RM: 99509
+- [Vitória Maria de Camargo] - RM: 552344
 
 ## Como Contribuir
 
