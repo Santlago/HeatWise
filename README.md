@@ -1,4 +1,4 @@
-# HeatWise
+![logo](image.png)
 
 ## Descrição do Projeto
 
