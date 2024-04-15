@@ -49,6 +49,9 @@ export default function Login() {
                             </span>
                         </Button>
                     </Link>
+                    <Link href="/" className="text-center hover:text-sun-200">
+                        retornar ao meunu principal
+                    </Link>
                 </div>
             </section>
         </main>

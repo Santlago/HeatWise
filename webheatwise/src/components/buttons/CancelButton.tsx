@@ -1,21 +1,17 @@
 import { Button } from "@nextui-org/react";
-import { useFormStatus } from "react-dom";
 
-interface SubmitButtonProps {
+interface CancelButtonProps {
     text: string;
 }
 
-export function SubmitButton({ text }: SubmitButtonProps) {
-    const { pending } = useFormStatus()
-    
+export function CancelButton({ text }: CancelButtonProps) {
     return (
         <Button className="rounded-[3.625rem]" 
             variant="ghost"
-            color="secondary"
-            isLoading={pending}
-            type="submit"
+            color="danger"
+            
         >
-            <span className="font-outfit text-sun-50 hover:text-sun-500" style={{
+            <span className="font-outfit text-red-500 hover:text-white" style={{
                 fontSize: '1.26281rem',
                 fontStyle: 'normal',
                 fontWeight: 700,

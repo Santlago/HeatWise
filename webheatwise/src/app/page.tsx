@@ -33,7 +33,9 @@ export default function Home() {
           <p className="mb-[3.25rem] text-[2.06494rem] font-bold text-sun-50 w-[41.37581rem]">
             Potencialize a Experiência de seus funcionários. Transformando <span className="text-sun-500">Dados</span> em <span className="text-sun-500">Insights</span> e melhorando sua Plataforma Digital!
           </p>
-          <StdButton text="Veja nossos planos" />
+          <Link href="/planos">
+            <StdButton text="Veja nossos planos" />
+          </Link>
         </div>
       </section>
       <section className="w-full bg-sun-500">

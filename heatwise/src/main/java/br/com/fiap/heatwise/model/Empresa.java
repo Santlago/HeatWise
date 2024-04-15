@@ -28,8 +28,8 @@ public class Empresa {
     private String nome;
 
     @NotBlank
-    @CNPJ
-    @Column(unique = true)
+    // @CNPJ
+    // @Column(unique = true)
     private String cnpj;
 
     @TipoPlano

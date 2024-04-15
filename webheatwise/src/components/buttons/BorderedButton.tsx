@@ -10,7 +10,7 @@ export function BorderedButton({ text }: BorderedButtonProps) {
             variant="ghost"
             color="primary"
         >
-            <span className="font-outfit text-sun-500 hover:text-sun-50" style={{
+            <span className="font-outfit text-sun-400 hover:text-sun-50" style={{
                 fontSize: '1.26281rem',
                 fontStyle: 'normal',
                 fontWeight: 700,
