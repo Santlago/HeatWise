@@ -83,7 +83,7 @@ Retorna um array com todas as empresas cadastradas.
     "id": 1,
     "nome": "Carrefour",
     "cnpj": "45.543.915/0001-81",
-    "planoContratado": 1,
+    "idPlano": 1,
     "telefone": "0800-724-2822",
     "email": "carrefourrh@gmail.com",
 }
@@ -109,7 +109,7 @@ Cria uma nova empresa com os dados enviados no corpo da requisição.
 |-----|----|:-----------:|---------|
 |nome|string|✅|Um nome curto para a empresa.|
 |cnpj|string|✅|CNPJ da empresa|
-|planoContratado|Long|✅|Plano escolhido pela empresa|
+|idPlano|Long|✅|Id do plano escolhido pela empresa|
 |telefone|string|✅|Telefone para contato da empresa|
 |email|string|✅|Email para contato da empresa|
 |sitesCadastrados|Array<Long>|❌|Sites cadastrados da empresa para análise|
@@ -118,7 +118,7 @@ Cria uma nova empresa com os dados enviados no corpo da requisição.
 {
     "nome": "Carrefour",
     "cnpj": "45.543.915/0001-81",
-    "planoContratado": 1,
+    "idPlano": 1,
     "telefone": "0800-724-2822",
     "email": "carrefourrh@gmail.com",
 }
@@ -131,7 +131,7 @@ Cria uma nova empresa com os dados enviados no corpo da requisição.
     "id": 1,
     "nome": "Carrefour",
     "cnpj": "45.543.915/0001-81",
-    "planoContratado": 1,
+    "idPlano": 1,
     "telefone": "0800-724-2822",
     "email": "carrefourrh@gmail.com",
 }
@@ -160,7 +160,7 @@ Retorna os detalhes da empresa com o `id` informado com o parâmetro da path
     "id": 1,
     "nome": "Carrefour",
     "cnpj": "45.543.915/0001-81",
-    "planoContratado": 1,
+    "idPlano": 1,
     "telefone": "0800-724-2822",
     "email": "carrefourrh@gmail.com",
 }
@@ -200,7 +200,7 @@ Altera os dados da empresa especificada no `id`, utilizando as informações env
 |-----|----|:-----------:|---------|
 |nome|string|✅|Um nome curto para a empresa.|
 |cnpj|string|✅|CNPJ da empresa|
-|planoContratado|Long|✅|Plano escolhido pela empresa|
+|idPlano|Long|✅|Id do plano escolhido pela empresa|
 |telefone|string|✅|Telefone para contato da empresa|
 |email|string|✅|Email para contato da empresa|
 |sitesCadastrados|Array<Long>|❌|Sites cadastrados da empresa para análise|
@@ -209,7 +209,7 @@ Altera os dados da empresa especificada no `id`, utilizando as informações env
 {
     "nome": "CarrefourAlterado",
     "cnpj": "45.543.915/0001-81",
-    "planoContratado": 1,
+    "idPlano": 1,
     "telefone": "0800-724-2822",
     "email": "carrefourrh@gmail.com",
 }
@@ -222,7 +222,7 @@ Altera os dados da empresa especificada no `id`, utilizando as informações env
     "id": 1,
     "nome": "CarrefourAlterado",
     "cnpj": "45.543.915/0001-81",
-    "planoContratado": 1,
+    "idPlano": 1,
     "telefone": "0800-724-2822",
     "email": "carrefourrh@gmail.com",
 }
