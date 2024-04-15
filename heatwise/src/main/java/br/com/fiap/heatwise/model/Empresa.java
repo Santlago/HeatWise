@@ -4,6 +4,7 @@ import java.util.List;
 
 import org.hibernate.validator.constraints.br.CNPJ;
 
+import br.com.fiap.heatwise.validation.TipoPlano;
 import jakarta.persistence.Column;
 import jakarta.persistence.Entity;
 import jakarta.persistence.GeneratedValue;
@@ -22,6 +23,7 @@ public class Empresa {
     @Id @GeneratedValue(strategy = GenerationType.AUTO)
     private Long id;
 
+    @NotBlank(message = "{movimentacao.nome.notblank}")
     @Size(min = 1, max = 50)
     private String nome;
 
@@ -30,6 +32,7 @@ public class Empresa {
     @Column(unique = true)
     private String cnpj;
 
+    @TipoPlano
     private Long idPlano;
 
     @NotBlank

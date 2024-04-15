@@ -249,7 +249,7 @@ Altera os dados da empresa especificada no `id`, utilizando as informações env
 
 ### Listar Todas os Sites
 
-`GET` /empresa/`{id}`/site
+`GET` /site
 
 Retorna um array com todas os sites cadastradas.
 
@@ -277,7 +277,7 @@ Retorna um array com todas os sites cadastradas.
 
 ### Cadastrar Site
 
-`POST`  /empresa/`{id}`/site
+`POST`  /site
 
 Cria um novo site com os dados enviados no corpo da requisição.
 
@@ -322,7 +322,7 @@ Cria um novo site com os dados enviados no corpo da requisição.
 
 ### Detalhes da Site
 
-`GET` /empresa/`{id}`/site/`{id}`
+`GET` /site/`{id}`
 
 Retorna os detalhes da site com o `id` informado com o parâmetro da path
 
@@ -350,7 +350,7 @@ Retorna os detalhes da site com o `id` informado com o parâmetro da path
 
 ### Apagar Site
 
-`DELETE` /empresa/`{id}`/site/`{id}`
+`DELETE` /site/`{id}`
 
 Apaga a site como o `id` especificado no parâmetro de path
 
@@ -363,7 +363,7 @@ Apaga a site como o `id` especificado no parâmetro de path
 
 ### Atualizar Site
 
-`PUT` /empresa/`{id}`/site/`{id}`
+`PUT` /site/`{id}`
 
 Altera os dados da site especificada no `id`, utilizando as informações enviadas no corpo da requisição.
 
