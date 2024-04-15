@@ -57,8 +57,8 @@ Este projeto está licenciado sob a [insira o tipo de licença aqui]. Consulte o
 
 ## Tarefas
 
-- [-] [CRUD da Empresa](#crud-da-empresa)
-- [-] [CRUD do Site](#crud-do-site)
+- [X] [CRUD da Empresa](#crud-da-empresa)
+- [X] [CRUD do Site](#crud-do-site)
 - [ ] CRUD das Análises
 
 ## CRUD da Empresa
