@@ -51,6 +51,8 @@ Caso tenha interesse em contribuir com o desenvolvimento do HeatWise, sinta-se �
 
 # Documentação da API
 
+## [Como testar os endpoints](/informacoes/teste-endpoints/)
+
 ## Tarefas
 
 - [X] [CRUD da Empresa](#crud-da-empresa)
