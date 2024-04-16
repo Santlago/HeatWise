@@ -5,8 +5,8 @@ export default function Footer() {
 
 
     return (
-        <footer className=" flex w-full h-[27.625rem] bg-sun-500 font-abeezee text-sun-50 font-semibold text-[1.35188rem]">
-            <div className="flex w-1/2 flex-col justify-around items-center border-r-[0.1875rem]">
+        <footer className=" flex w-full h-[27.625rem] bg-sun-500 font-abeezee text-sun-50 font-semibold text-[1.35188rem] overflow-hidden items-center">
+            <div className="flex w-1/2 flex-col justify-around items-center gap-14">
                 <div className="">
                     Projeto sugerido e apoiado por:
                 </div>
@@ -28,7 +28,8 @@ export default function Footer() {
                     />
                 </div>
             </div>
-            <div className="flex w-1/2 flex-col justify-around my-[4.38rem] ml-[3.19rem]">
+            <div className="h-[20rem] border-r-[0.1875rem]"></div>
+            <div className="flex w-1/2 flex-col justify-around gap-10 my-[4.38rem] ml-[3.19rem]">
                 <div className="">
                     <h2>INTEGRANTES DO GRUPO</h2>
                 </div>

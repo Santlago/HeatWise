@@ -30,7 +30,7 @@ export default function Home() {
           </Link>
         </div>
         <div className="px-[4.38rem]">
-          <p className="mb-[3.25rem] text-[2.06494rem] font-bold text-sun-50 w-[41.37581rem]">
+          <p className="pb-[3.25rem] text-[2.06494rem] font-bold text-sun-50 max-w-[41.37581rem]">
             Potencialize a Experiência de seus funcionários. Transformando <span className="text-sun-500">Dados</span> em <span className="text-sun-500">Insights</span> e melhorando sua Plataforma Digital!
           </p>
           <Link href="/planos">
@@ -39,17 +39,20 @@ export default function Home() {
         </div>
       </section>
       <section className="w-full bg-sun-500">
-        <h1 className="text-center font-bold text-sun-50 font-outfit text-[2.54788rem] pt-[2.56rem]">Sobre Nós</h1>
-        <div className="flex justify-center">
-          <p className="w-[38.9375rem] pt-[4.5rem] mr-[1.87rem] text-[1.57919rem] font-outfit text-sun-50 font-semibold">
-            Transformamos dados em insights valiosos para melhorar a experiência em suas plataformas digitais. Com nossa tecnologia avançada de análise de dados e feedback funcional, capacitamos as empresas a entender e otimizar a jornada dos funcionários, impulsionando a eficiência e a produtividade
-          </p>
-          <Image src="/sobrenos.png" className="w-[27.3125rem] h-auto " />
+        <div className="flex justify-center items-center">
+          <div>
+            <h1 className="text-center font-bold text-sun-50 font-outfit text-[2.54788rem]">Sobre Nós</h1>
+            <p className="max-w-[38.9375rem] pt-[4.5rem] mr-[1.87rem] text-[1.57919rem] font-outfit text-sun-50 font-semibold">
+              Transformamos dados em insights valiosos para melhorar a experiência em suas plataformas digitais. Com nossa tecnologia avançada de análise de dados e feedback funcional, capacitamos as empresas a entender e otimizar a jornada dos funcionários, impulsionando a eficiência e a produtividade
+            </p>
+
+          </div>
+          <Image src="/sobrenos.png" className="w-[27.3125rem] h-auto pt-14" />
         </div>
       </section>
-      <section className="w-full bg-sun-950">
+      <section className="flex flex-col justify-around w-full bg-sun-950 min-h-96">
         <h1 className="py-[3.19rem] px-[3.63rem] font-bold text-sun-50 font-outfit text-[2.54788rem] pt-[2.56rem]">Benefícios Principais</h1>
-        <div className="flex flex-col justify-around h-[20rem] px-[6.25rem] pb-[6.61rem]">
+        <div className="flex flex-col gap-10 justify-around px-[6.25rem] pb-[6.61rem]">
           <div className="flex"><Dot />Melhoria da Experiência do Funcionário - Identifique áreas de oportunidade para aprimorar a usabilidade e eficiência da plataforma.</div>
           <div className="flex"><Dot />Otimização de Processos Internos - Personalize estratégias de desenvolvimento com base no comportamento e necessidades reais dos funcionários.</div>
           <div className="flex"><Dot />Tomada de Decisão Baseada em Dados - Transforme dados em insights acionáveis para impulsionar o desempenho e o sucesso da equipe.</div>
@@ -57,8 +60,8 @@ export default function Home() {
       </section>
       <section className="w-full bg-sun-500">
         <h1 className="text-center font-bold text-sun-50 font-outfit text-[2.54788rem] pt-[2.56rem]">Mas como funciona?</h1>
-        <div className="flex mt-[2.56rem] pb-[6rem] justify-around align-middle">
-          <div className="text-[1.57919rem] font-outfit text-sun-50 font-semibold pt-[7.5rem]">
+        <div className="flex justify-around py-24 items-center">
+          <div className="text-[1.57919rem] font-outfit text-sun-50 font-semibold ">
             <p className="align-middle">
               Nossa plataforma irá gerar mapas de calor com base em seu site
             </p>
@@ -68,7 +71,7 @@ export default function Home() {
           </div>
         </div>
       </section>
-      <section className="w-full bg-sun-600 flex justify-around">
+      <section className="w-full bg-sun-600 flex justify-around items-center">
         <div className="py-[8rem]">
           <Image src="/funciona2.png" className="w-[27.3125rem] h-auto " />
         </div>
