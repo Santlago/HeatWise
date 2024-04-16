@@ -33,9 +33,9 @@ O HeatWise é uma plataforma inovadora que utiliza o recurso de heat mapping par
 
 ## Tecnologias Utilizadas
 
-- Linguagens de Programação: [Liste as linguagens utilizadas, por exemplo: JavaScript, Python, etc.]
-- Ferramentas de Análise: [Liste as ferramentas de análise de dados utilizadas, por exemplo: Google Analytics, etc.]
-- Plataformas de Desenvolvimento: [Liste as plataformas de desenvolvimento utilizadas, por exemplo: GitHub, etc.]
+- Linguagens de Programação: [Java, Python, JavaScript, TypeScript e C#]
+- Frameworks: [Next.js, Java SpringBoot e Tailwind CSS]
+- Plataformas de Desenvolvimento: [GitHub, AzureDevOps, Figma e Trello]
 
 ## Equipe
 
@@ -48,10 +48,6 @@ O HeatWise é uma plataforma inovadora que utiliza o recurso de heat mapping par
 ## Como Contribuir
 
 Caso tenha interesse em contribuir com o desenvolvimento do HeatWise, sinta-se à vontade para abrir pull requests, reportar problemas ou sugerir melhorias em nosso repositório no GitHub.
-
-## Licença
-
-Este projeto está licenciado sob a [insira o tipo de licença aqui]. Consulte o arquivo [LICENSE](LICENSE) para obter mais detalhes.
 
 # Documentação da API
 

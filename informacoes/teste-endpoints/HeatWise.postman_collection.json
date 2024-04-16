@@ -1,0 +1,238 @@
+{
+	"info": {
+		"_postman_id": "f8327af5-feaf-4ffe-812c-b303aa07f64d",
+		"name": "HeatWise",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "29481589"
+	},
+	"item": [
+		{
+			"name": "empresa",
+			"item": [
+				{
+					"name": "listar todas",
+					"protocolProfileBehavior": {
+						"disableBodyPruning": true
+					},
+					"request": {
+						"method": "GET",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "{{path}}empresa",
+							"host": [
+								"{{path}}empresa"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "detalhes",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "{{path}}empresa/1",
+							"host": [
+								"{{path}}empresa"
+							],
+							"path": [
+								"1"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "apagar",
+					"request": {
+						"method": "DELETE",
+						"header": [],
+						"url": {
+							"raw": "{{path}}empresa/1",
+							"host": [
+								"{{path}}empresa"
+							],
+							"path": [
+								"1"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "cadastrar",
+					"request": {
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n    \"nome\": \"Carrefour\",\r\n    \"cnpj\": \"45.543.915/0001-81\",\r\n    \"idPlano\": 1,\r\n    \"telefone\": \"0800-724-2822\",\r\n    \"email\": \"carrefourrh@gmail.com\"\r\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "{{path}}empresa",
+							"host": [
+								"{{path}}empresa"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "atualizar",
+					"request": {
+						"method": "PUT",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n    \"nome\": \"CarrefourAlterado\",\r\n    \"cnpj\": \"45.543.915/0001-81\",\r\n    \"idPlano\": 1,\r\n    \"telefone\": \"0800-724-2822\",\r\n    \"email\": \"carrefourrh@gmail.com\"\r\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "{{path}}empresa/2",
+							"host": [
+								"{{path}}empresa"
+							],
+							"path": [
+								"2"
+							]
+						}
+					},
+					"response": []
+				}
+			]
+		},
+		{
+			"name": "site",
+			"item": [
+				{
+					"name": "listar todas",
+					"protocolProfileBehavior": {
+						"disableBodyPruning": true
+					},
+					"request": {
+						"method": "GET",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "{{path}}site",
+							"host": [
+								"{{path}}site"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "detalhes",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "{{path}}site/1",
+							"host": [
+								"{{path}}site"
+							],
+							"path": [
+								"1"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "apagar",
+					"request": {
+						"method": "DELETE",
+						"header": [],
+						"url": {
+							"raw": "{{path}}empresa/1",
+							"host": [
+								"{{path}}empresa"
+							],
+							"path": [
+								"1"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "cadastrar",
+					"request": {
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n    \"apelido\": \"Site de folha de pagamento\",\r\n    \"url\": \"http://carrefourfolhapagamento.com.br\"\r\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "{{path}}site",
+							"host": [
+								"{{path}}site"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "atualizar",
+					"request": {
+						"method": "PUT",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n    \"apelido\": \"Site de folha de pagamento alterado\",\r\n        \"url\": \"http://carrefourfolhapagamento.com.br\"\r\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "{{path}}site/1",
+							"host": [
+								"{{path}}site"
+							],
+							"path": [
+								"1"
+							]
+						}
+					},
+					"response": []
+				}
+			]
+		}
+	]
+}

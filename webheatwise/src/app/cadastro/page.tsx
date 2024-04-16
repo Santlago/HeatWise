@@ -13,7 +13,9 @@ const initialState = {
     messageNome: '',
 }
 
-export default async function Cadastro() {
+export default async function Cadastro({params}) {
+    const formId = params.id == 0 ? '' : params.id
+
     const [state, formAction] = useFormState(create, initialState)
 
     return (
