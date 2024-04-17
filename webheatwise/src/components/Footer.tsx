@@ -11,21 +11,25 @@ export default function Footer() {
                     Projeto sugerido e apoiado por:
                 </div>
                 <div>
-                    <Image
-                        src="/plusoft-logo.png"
-                        alt="plusoftlogo"
-                        height={103}
-                        width={408.185}
-                    />
+                    <Link href="https://plusoft.com/" target="blank">
+                        <Image
+                            src="/plusoft-logo.png"
+                            alt="plusoftlogo"
+                            height={103}
+                            width={408.185}
+                        />
+                    </Link>
                 </div>
                 <div>
-                    <Image
-                        src="/fiap-logo-white.png"
-                        alt="fiaplogo"
-                        height={69}
-                        width={255}
-                        className="rounded-none"
-                    />
+                    <Link href="https://www.fiap.com.br/" target="blank">
+                        <Image
+                            src="/fiap-logo-white.png"
+                            alt="fiaplogo"
+                            height={69}
+                            width={255}
+                            className="rounded-none"
+                        />
+                    </Link>
                 </div>
             </div>
             <div className="h-[20rem] border-r-[0.1875rem]"></div>

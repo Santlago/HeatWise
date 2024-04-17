@@ -38,7 +38,7 @@ export default async function Cadastro() {
             <section className="h-screen w-1/2 flex flex-col justify-center items-center">
                 <div>
                     <form action={formAction}>
-                        <div className="flex flex-col justify-between bg-white w-[27.9375rem] h-[40.5625rem] text-[#D67300] p-[1.41rem] rounded-[1rem] text-[0.65938rem] mb-[1.51rem]">
+                        <div className="flex flex-col justify-between bg-white w-[27.9375rem] max-h-[40.5625rem] text-[#D67300] p-[1.41rem] rounded-[1rem] text-[0.65938rem] mb-[1.51rem]">
                             <div className="">
                                 <h2 className="text-[0.942rem] font-bold">Dados da empresa</h2>
                                 <p>Preencha com base nos dados da empresa</p>

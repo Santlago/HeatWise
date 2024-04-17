@@ -26,7 +26,7 @@ export default function Planos() {
     ]
     return (
         <>
-            <main className="h-screen" style={{
+            <main className="h-full" style={{
                 background: 'var(--Sun-700, #BB5B02)',
                 boxShadow: '0px 300px 250px 0px rgba(246, 141, 43, 0.50) inset'
             }}>
@@ -46,9 +46,9 @@ export default function Planos() {
                         <div className="text-sun-50 font-bold text-[2.91894rem] font-outfit">
                             <h1>Confira nossos planos</h1>
                         </div>
-                        <div className="flex justify-between gap-[2.48rem] mt-[4rem]">
+                        <div className="flex justify-between gap-[2.48rem] mt-[4rem] mb-[4rem]">
                             {planos.map(plano => (
-                                <div className="bg-sun-500 h-[25.135rem] w-[20.39325rem] rounded-[1.83225rem]" style={{
+                                <div className="bg-sun-500 max-h-[25.135rem] w-[20.39325rem] rounded-[1.83225rem]" style={{
                                     boxShadow: '0px 0px 24.774px 0px rgba(0, 0, 0, 0.25)'
                                 }}>
                                     <div className="flex flex-col justify-around h-full text-center font-outfit text-sun-50 p-[2.3rem]">
