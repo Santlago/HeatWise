@@ -1,9 +1,17 @@
+"use client"
+
 import Footer from "@/components/Footer";
 import { BorderedButton } from "@/components/buttons/BorderedButton";
 import { Image } from "@nextui-org/react";
 import Link from "next/link";
+import { useSearchParams } from "next/navigation";
 
 export default function Planos() {
+
+    const searchParam = useSearchParams();
+    const origin = searchParam.get('origin');
+    console.log(origin)
+
     const planos = [
         {
             titulo: "Plano Básico",
@@ -31,13 +39,15 @@ export default function Planos() {
                 boxShadow: '0px 300px 250px 0px rgba(246, 141, 43, 0.50) inset'
             }}>
                 <div className="py-[3.06rem] px-[2.88rem] flex justify-between">
-                    <Image
-                        src="/logo-small.png"
-                        alt="logo"
-                        height={46}
-                        width={197}
-                    />
-                    <Link href="/">
+                    <Link href='/'>
+                        <Image
+                            src="/logo-small.png"
+                            alt="logo"
+                            height={46}
+                            width={197}
+                        />
+                    </Link>
+                    <Link href={origin === 'logado' ? '/homelogado' : '/'}>
                         <BorderedButton text="Voltar" />
                     </Link>
                 </div>

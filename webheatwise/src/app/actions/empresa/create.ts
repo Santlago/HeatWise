@@ -24,7 +24,7 @@ export async function create(prevState: any, formData: FormData){
     const resp = await fetch(`${process.env.API_BASE_URL}/empresa`, options)
     
     if (resp.ok){
-      redirect("/")
+      redirect("/homelogado")
     }
 
     if (resp.status == 400){
