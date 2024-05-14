@@ -1,14 +1,18 @@
 import Footer from "@/components/Footer";
-import { BorderedButton } from "@/components/buttons/BorderedButton";
-import { BorderedProfileButton } from "@/components/buttons/BorderedProfileButton";
 import { ProfileButton } from "@/components/buttons/ProfileButton";
 import { StdButton } from "@/components/buttons/StdButton";
-import { WhiteButton } from "@/components/buttons/WhiteButton";
-import { Button, Image } from "@nextui-org/react"
+import { Image } from "@nextui-org/react";
 import { Dot } from "lucide-react";
+import { cookies } from "next/headers";
 import Link from "next/link";
+import { decrypt, getSession } from "../lib/session";
+import { getById } from "../actions/empresa/get-by-id";
 
-export default function Home() {
+export default async function Home() {
+
+  const user = await getSession()
+  console.log(user)
+
   return (
     <main className="text-sun-900 font-outfit bg-sun-950 bg-contain bg-no-repeat bg-[url('/landingpage-bg.png')]" style={{
       color: 'var(--Sun-50, #FFFDEA)',
@@ -26,7 +30,7 @@ export default function Home() {
             width={197}
           />
           <Link href="/perfil">
-            <ProfileButton text="Meu Perfil" />
+            <ProfileButton text={user.nome} />
           </Link>
         </div>
         <div className="px-[4.38rem]">
@@ -35,7 +39,7 @@ export default function Home() {
           </p>
           <Link href={{
             pathname: '/planos',
-            query: {origin: 'logado'}
+            query: { origin: 'logado' }
           }}>
             <StdButton text="Veja nossos planos" />
           </Link>

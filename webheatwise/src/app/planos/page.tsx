@@ -1,16 +1,15 @@
-"use client"
+"use server"
 
 import Footer from "@/components/Footer";
 import { BorderedButton } from "@/components/buttons/BorderedButton";
 import { Image } from "@nextui-org/react";
 import Link from "next/link";
-import { useSearchParams } from "next/navigation";
+import { getSession } from "../lib/session";
 
-export default function Planos() {
+export default async function Planos() {
 
-    const searchParam = useSearchParams();
-    const origin = searchParam.get('origin');
-    console.log(origin)
+    const user = await getSession()
+    console.log(user)
 
     const planos = [
         {
@@ -47,7 +46,7 @@ export default function Planos() {
                             width={197}
                         />
                     </Link>
-                    <Link href={origin === 'logado' ? '/homelogado' : '/'}>
+                    <Link href={user ? '/homelogado' : '/'}>
                         <BorderedButton text="Voltar" />
                     </Link>
                 </div>

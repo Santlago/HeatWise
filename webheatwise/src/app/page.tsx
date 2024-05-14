@@ -7,8 +7,14 @@ import { WhiteButton } from "@/components/buttons/WhiteButton";
 import { Button, Image } from "@nextui-org/react"
 import { Dot } from "lucide-react";
 import Link from "next/link";
+import { getSession } from "./lib/session";
+import { CadastreSection } from "@/components/CadastreSection";
 
-export default function Home() {
+export default async function Home() {
+
+  const user = await getSession()
+  console.log(user)
+
   return (
     <main className="text-sun-900 font-outfit bg-sun-950 bg-contain bg-no-repeat bg-[url('/landingpage-bg.png')]" style={{
       color: 'var(--Sun-50, #FFFDEA)',
@@ -87,22 +93,7 @@ export default function Home() {
           <Image src="/funciona3.png" className="w-[27.3125rem] h-auto " />
         </div>
       </section>
-      <section className="w-full bg-sun-950 text-sun-50">
-        <div className="flex items-center justify-around">
-          <div className="">
-            <Image src="/funciona4.png" className="w-[27.3125rem] h-auto " />
-
-          </div>
-          <div id="texto" className="text-center">
-            <div className="text-[2.91063rem] mb-[5.19rem]">
-              <h1>Ta esperando o que?</h1>
-            </div>
-            <div className="text-[2.34031rem] max-w-[35rem]">
-              <p><span className="text-sun-500">Cadastre-se</span> e adquira já a mais nova solução de heatmapping no mercado!</p>
-            </div>
-          </div>
-        </div>
-      </section>
+      <CadastreSection user={user} />
       <Footer />
     </main >
   );
