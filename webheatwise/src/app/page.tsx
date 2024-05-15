@@ -25,15 +25,24 @@ export default async function Home() {
     }}>
       <section className=" w-full h-[51.0625rem]">
         <div className="py-[3.06rem] px-[2.88rem] flex justify-between">
-          <Image
-            src="/logo-small.png"
-            alt="logo"
-            height={46}
-            width={197}
-          />
-          <Link href="/login">
-            <BorderedButton text="Login" />
+          <Link href="/">
+            <Image
+              src="/logo-small.png"
+              alt="logo"
+              height={46}
+              width={197}
+            />
           </Link>
+          {user ? (
+            <Link href="/perfil">
+              <ProfileButton text={user.nome} />
+            </Link>
+          ) : (
+            <Link href="/login">
+              <BorderedButton text="Login" />
+            </Link>
+          )}
+
         </div>
         <div className="px-[4.38rem]">
           <p className="pb-[3.25rem] text-[2.06494rem] font-bold text-sun-50 max-w-[41.37581rem]">

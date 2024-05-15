@@ -1,11 +1,12 @@
 import { Image } from "@nextui-org/react"
+import Link from "next/link"
 
 interface CadastreSectionProps {
     user: string
 }
 
 export function CadastreSection({ user } : CadastreSectionProps) {
-  if (!user) {
+  if (user) {
     return null
   }
 
@@ -21,7 +22,7 @@ export function CadastreSection({ user } : CadastreSectionProps) {
           </div>
           <div className="text-[2.34031rem] max-w-[35rem]">
             <p>
-              <span className="text-sun-500">Cadastre-se</span> e adquira já a mais nova solução de heatmapping no mercado!
+              <Link href="/cadastro"><span className="text-sun-500">Cadastre-se</span></Link> e adquira já a mais nova solução de heatmapping no mercado!
             </p>
           </div>
         </div>

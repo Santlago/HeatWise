@@ -49,8 +49,8 @@ export async function getSession() {
   }
 
   const session = await decrypt(sessionCookie.value)
-  
-  return getById(session.userId)
+
+  return await getById(session.userId)
 }
 
 export async function deleteSession() {

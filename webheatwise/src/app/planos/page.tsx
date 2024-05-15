@@ -46,7 +46,7 @@ export default async function Planos() {
                             width={197}
                         />
                     </Link>
-                    <Link href={user ? '/homelogado' : '/'}>
+                    <Link href="/">
                         <BorderedButton text="Voltar" />
                     </Link>
                 </div>

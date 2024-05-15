@@ -29,7 +29,7 @@ export async function create(prevState: any, formData: FormData) {
     const userId = responseData.id
 
     await createSession(userId)
-    redirect("/homelogado")
+    redirect("/")
   }
 
   if (resp.status == 400) {
