@@ -8,6 +8,7 @@ import { StdSmallButton } from "@/components/buttons/StdSmallButton";
 import { WhiteButton } from "@/components/buttons/WhiteButton";
 import { Mail, Phone } from "lucide-react";
 import { PlusButton } from "@/components/buttons/PlusButton";
+import { LogoutButton } from "@/components/buttons/LogoutButton";
 
 export default async function Perfil() {
     const user = await getSession();
@@ -43,6 +44,7 @@ export default async function Perfil() {
                 <Link href='/'>
                     <BorderedButton text="Voltar" />
                 </Link>
+                {/* <LogoutButton text="Logout"/> */}
             </div>
             <h1 className="text-center text-[2.9rem] font-outfit text-sun-50 font-bold">Perfil da Empresa</h1>
             <div id="forms" className="flex-grow flex justify-center items-center gap-[2.59rem]">
