@@ -2,8 +2,8 @@
 
 - [Descrição do Projeto](#descrição-do-projeto)
 - [Documentação da API](#documentação-da-api)
-- [Frontend:](https://github.com/Santlago/FE-HeatWise)
-- [Backend:](https://github.com/Santlago/BE-HeatWise)
+- [Frontend](https://github.com/Santlago/FE-HeatWise)
+- [Backend](https://github.com/Santlago/BE-HeatWise)
 
 # Descrição do Projeto
 
